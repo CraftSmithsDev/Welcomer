@@ -1,0 +1,17 @@
+# Welcomer Configuration
+
+# Color Code System (MINIMESSAGE or LEGACY)
+colorcode-system: MINIMESSAGE
+
+# Join and Leave Messages
+join-message: "<gradient:red:blue>Welcome, %player%!</gradient>"
+leave-message: "<gradient:red:blue> &7%player% left.</gradient>"
+
+# Custom Join Message (like motd.txt)
+motd: true
+welcome-motd:
+  - ""
+  - "<gray> Welcome %player% to the server"
+  - ""
+  - "<gray> Enjoy your stay!"
+  - "<red> Rules: <blue>Be nice and have fun!"

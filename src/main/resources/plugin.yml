@@ -1,0 +1,12 @@
+name: Welcomer
+version: 1.0
+main: org.free.welcomer.Welcomer
+api-version: 1.21
+commands:
+  wr:
+    description: Reload the Welcomer config.
+    permission: welcomer.reload
+permissions:
+  welcomer.reload:
+    description: Allows the user to reload the Welcomer config.
+    default: op
